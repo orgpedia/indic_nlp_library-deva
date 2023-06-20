@@ -16,9 +16,9 @@ from collections import defaultdict
 
 from indicnlp import common
 from indicnlp import langinfo 
-from indicnlp.script import indic_scripts as isc
-from indicnlp.transliterate.sinhala_transliterator import SinhalaDevanagariTransliterator  as sdt
-import pandas as pd
+# from indicnlp.script import indic_scripts as isc
+# from indicnlp.transliterate.sinhala_transliterator import SinhalaDevanagariTransliterator  as sdt
+# import pandas as pd
 
 OFFSET_TO_ITRANS={}
 ITRANS_TO_OFFSET=defaultdict(list)
